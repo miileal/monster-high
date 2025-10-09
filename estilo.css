@@ -1,4 +1,25 @@
 body{
     background-color: #761385;
     color: #e9caf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+   text-align: center;
+   max-width: 90%;
+}
+button{
+    background-color: #e9caf3
+    color: ;
+    padding: 20px;
+}
+.img01{
+    width: 95%;
+}
+.passo{
+    display: none;
+}
+.passo.ativo{
+    display: block;
 }
