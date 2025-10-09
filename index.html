@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aventura Monster High</title>
-    <Link rel="stylesheet" href="./estilo.css"    
+    <Link rel="stylesheet" href="./estilo.css"    >
 </head>
 <body>
    <main>
@@ -16,8 +16,15 @@ Você (o jogador) precisa decidir o que fazer com ele.
  Suas escolhas vão definir o rumo da sua história… e até o destino de Monster High! 👀✨
 </p>
         <p>Você encontra o amuleto no armário.</p>
-          <button>Guardar para si</button>
-          <button>Mostrar para as amigas</button>
+          <button class="btn-proximo" data proximo="1">Guardar para si</button>
+          <button class="btn-proximo" data proximo="2">Mostrar para as amigas</button>
+      </div>
+
+      <div class="passo ativo" id="passo-0">
+          <img src="/amigasmonsters.jpeg" alt="">
+        <p>Você encontra o amuleto no armário.</p>
+          <button class="btn-proximo" data proximo=>Usar o amuleto</button>
+          <button class="btn-proximo" data proximo=>Procurar um professor</button>
       </div>
    </main>
    <script src="./main.js"></script>
